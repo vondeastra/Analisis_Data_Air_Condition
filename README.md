@@ -1,3 +1,6 @@
-## RUN STREAMLIT APP/ DASHBOARD
+## Cara Menjalankan Dashboard
 
-> streamlit run dashboard.py
+```bash
+streamlit run Dashboard/dashboard.py
+```
+
