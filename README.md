@@ -1,3 +1,3 @@
 ## RUN STREAMLIT APP/ DASHBOARD
 
-streamlit run dashboard.py
+> streamlit run dashboard.py
