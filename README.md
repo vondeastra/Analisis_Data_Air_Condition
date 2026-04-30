@@ -45,8 +45,6 @@ conda activate main-ds
 Jika menggunakan terminal biasa:
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -59,22 +57,18 @@ Pastikan berada di folder `submission`, lalu jalankan:
 ```bash
 streamlit run dashboard/dashboard.py
 ```
+Atau masuk pada folder `Dashboard` dengan:
 
----
-
-## 🌐 Akses Dashboard
-
-Setelah dijalankan, buka di browser:
-
-```text
-http://localhost:8501
+```bash
+cd Dashboard
+streamlit run dashboard.py
 ```
-
 ---
+
 
 ## ⚠️ Catatan
 
-* Pastikan file `main_data.csv` berada di folder `dashboard/`
+* Pastikan file `air_quality_cleaned.csv` berada di folder `Dashboard/`
 * Jangan mengubah struktur folder
 * Gunakan Python versi 3.10 atau lebih baru
 * Jika terjadi error, pastikan semua library sudah terinstall
@@ -84,4 +78,4 @@ http://localhost:8501
 ## 👨‍💻 Author
 
 **Muhammad Devin Rahadi**
-Project: Analisis Data Kualitas Udara
+Project: Analisis Data Air Quality
